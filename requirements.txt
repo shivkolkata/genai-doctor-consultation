@@ -1,0 +1,9 @@
+pandas
+qdrant_client
+python-dotenv
+langchain_community
+langchain_experimental
+tqdm
+unstructured
+langchain
+gradio
