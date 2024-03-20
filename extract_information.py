@@ -68,7 +68,7 @@ def query_data(query):
     print("answer received")
     return as_output, retriever_output
 
-with gr.Blocks(theme=gr.themes.Glass(),title="Question Answering App using Qdrant Vector Search and RAG (Ask about your health issue to get free consultation)") as demo:
+with gr.Blocks(theme=gr.themes.Base(),title="Question Answering App using Qdrant Vector Search and RAG (Ask about your health issue to get free consultation)") as demo:
     gr.Markdown(
         """
         # Question Answering App using Qdrant Vector Search and RAG (Ask about your health issue to get free consultation)
